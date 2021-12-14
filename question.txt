@@ -1,0 +1,5 @@
+CS 630 Operating Systems and Design
+
+Question:
+
+"Assume that PA, PB and PC are distinguished programs. When PA is executed, it takes 8 ticks to complete its execution and it forks new processes executing PB at tick marks 3, 5 and 6. Similarly, PB needs 6 ticks to complete its execution and it forks new processes executing PC at tick marks 2 and 4; and PC needs 4 ticks to complete its execution. Assume that these 3 processes{P1, P2, P3} arrive before t=0, and P1 and P2 are executing PA while P3 is executing PB. Implement this scenario illustrating the scheduling of these processes if a Shortest Job First (SJF) Scheduling Algorithm is used. Your program is expected to print the correct Gantt Chart showing the correct time intervals."
